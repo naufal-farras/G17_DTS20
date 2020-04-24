@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background: linear-gradient(rgba(0,0,0,0), rgb(0, 0,0, 0)) , url("../images/Jambrot.png");
+    height: 688px;
+    background-size: cover;
+    text-align: left;
+}
+
+.nav{
+    color: black;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.nav .logo{
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+}
+
+.nav ul{
+    list-style: none;
+}
+
+.nav ul li{
+    display: inline-block;    
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.jargon{
+    color: black;
+    font-family: 'Titillium Web', sans-serif;
+    margin-left: 150px;
+    margin-top: 130px;
+    letter-spacing: 2px;
+}
+
+.jargon span{
+    font-family: 'Francois One', sans-serif;
+}
+
+.sub-jargon{
+    color: black;
+    letter-spacing: 2px;
+    margin-left: 151px;
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+
+.btn-join{
+    color: white;
+    background-color: grey;
+    padding: 10px 25px;
+    text-decoration: none;
+    margin-left: 151px;
+    
+}
+
+/*============================= list jasa ==================== */
+
+
+.container .list-jasa{
+    height: 287px;
+}
+.container .list-jasa .fs{
+    float: left;
+    width: 25%;
+    background-color: #353F4A;
+    height: 287px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.container .list-jasa .fs img{
+    margin-bottom: 20px;
+}
+
+.container .list-jasa .fs h3{
+    margin-bottom: 20px;
+}
+
+
+.container .list-jasa .hq{
+    float: left;
+    width: 25%;
+    background-color: #63696F;
+    height: 287px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.container .list-jasa .hq img{
+    margin-bottom: 20px;
+}
+
+.container .list-jasa .hq h3{
+    margin-bottom: 20px;
+}
+
+.container .list-jasa .as{
+    float: left;
+    width: 25%;
+    background-color: #353F4A;
+    height: 287px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.container .list-jasa .as img{
+    margin-bottom: 20px;
+}
+
+.container .list-jasa .as h3{
+    margin-bottom: 20px;
+}
+
+.container .list-jasa .legit{
+    float: left;
+    width: 25%;
+    background-color: #63696F;
+    height: 287px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.container .list-jasa .legit img{
+    margin-bottom: 20px;
+}
+
+.container .list-jasa .legit h3{
+    margin-bottom: 20px;
+}
+
+/* ========================== products ================== */
+
+.container .products{
+    height: 800px;
+    background-color: white;
+    padding-left: 8%;
+}
+
+.container .product-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .products .product-title ul{
+    margin-top: 80px;
+    margin-right: 8%;
+}
+
+.container .product-title ul li{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.product-title h2{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 10px;
+    color: #63696F;
+    background: url("../images/title-line.png") no-repeat 0 50%;
+
+}
+
+.product-title h2 span{
+    color: black;
+
+}
+
+.container .product-item .product-item-list{
+    padding: 0;
+    margin-top: 1%;
+    margin-right: 10px;
+    text-align: center;
+    float: left;
+    width: 30%;
+}
+
+.container .product-item .product-item-list img{
+    height: 200px;
+    width: 100%;
+}
+
+/* ============================ projects review =================== */
+
+.projects-review{
+    background-color: #353F4A;
+    height: 250px;
+    color: white;
+    font-family: 'Merriweather', serif;
+    padding-left: 8%;
+    padding-top: 30px;
+}
+
+.projects-review h1{
+    font-size: 80px;
+}
+
+.projects-review p{
+    font-size: 30px;
+}
+
+.projects-review .project-item{
+    float: left;
+    width: 30%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* css quotes */
+.container .quotes{
+    height: 500px;
+    text-align: center;
+    padding: 0 8%;
+}
+.container .quotes h1{
+    padding-top:20px;
+    margin-bottom: 20px;
+}
+.container .quotes p{
+    margin-bottom: 20px;
+    font-style: italic;
+}
+.container .quotes img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.container .quotes h3{
+    font-size: 30px;
+}
+
+.container .footer{
+    padding: 20px 8%;
+    background-color: #353F4A;
+    color: white;
+}
