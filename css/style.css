@@ -1,57 +1,71 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.header{
-    background: linear-gradient(rgba(0,0,0,0), rgb(0, 0,0, 0)) , url("../images/Jambrot.png");
-    height: 688px;
+
+/*============================= Header ==================== */
+
+header {
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(164, 79, 197, 0.95)), url("../images/2860938.jpg");
+    height: 750px;
     background-size: cover;
     text-align: left;
 }
 
-.nav{
+nav {
     color: black;
     padding: 30px 100px;
     display: flex;
     justify-content: space-between;
     font-size: 18px;
+    top: 0;
+position: fixed;
+width: 100%;
+z-index: 1;
+background-color: white;
 }
 
-.nav .logo{
+.logo {
     font-family: 'Merriweather', serif;
     font-size: 50px;
 }
 
-.nav ul{
+nav ul {
     list-style: none;
 }
 
-.nav ul li{
-    display: inline-block;    
+nav ul li {
+    display: inline-block;
     padding-left: 20px;
     padding-top: 20px;
 }
 
-.nav ul li a{
-    color: white;
+nav ul li a {
+    color: black;
     text-decoration: none;
 }
 
-.jargon{
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    font-weight: bolder;
+}
+
+.jargon {
     color: black;
     font-family: 'Titillium Web', sans-serif;
     margin-left: 150px;
     margin-top: 130px;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
 }
 
-.jargon span{
+.jargon span {
     font-family: 'Francois One', sans-serif;
+    letter-spacing: 3px;
 }
 
-.sub-jargon{
+.sub-jargon {
     color: black;
     letter-spacing: 2px;
     margin-left: 151px;
@@ -59,22 +73,23 @@
     margin-bottom: 40px;
 }
 
-.btn-join{
+.btn-join {
     color: white;
-    background-color: grey;
+    background-color: rgba(164, 79, 197, 0.95);
     padding: 10px 25px;
     text-decoration: none;
     margin-left: 151px;
-    
 }
+
 
 /*============================= list jasa ==================== */
 
-
-.container .list-jasa{
+.container .list-jasa {
+    padding-top: 10px;
     height: 287px;
 }
-.container .list-jasa .fs{
+
+.container .list-jasa .fs {
     float: left;
     width: 25%;
     background-color: #353F4A;
@@ -86,16 +101,15 @@
     text-decoration: none;
 }
 
-.container .list-jasa .fs img{
+.container .list-jasa .fs img {
     margin-bottom: 20px;
 }
 
-.container .list-jasa .fs h3{
+.container .list-jasa .fs h3 {
     margin-bottom: 20px;
 }
 
-
-.container .list-jasa .hq{
+.container .list-jasa .hq {
     float: left;
     width: 25%;
     background-color: #63696F;
@@ -107,15 +121,15 @@
     text-decoration: none;
 }
 
-.container .list-jasa .hq img{
+.container .list-jasa .hq img {
     margin-bottom: 20px;
 }
 
-.container .list-jasa .hq h3{
+.container .list-jasa .hq h3 {
     margin-bottom: 20px;
 }
 
-.container .list-jasa .as{
+.container .list-jasa .as {
     float: left;
     width: 25%;
     background-color: #353F4A;
@@ -127,15 +141,15 @@
     text-decoration: none;
 }
 
-.container .list-jasa .as img{
+.container .list-jasa .as img {
     margin-bottom: 20px;
 }
 
-.container .list-jasa .as h3{
+.container .list-jasa .as h3 {
     margin-bottom: 20px;
 }
 
-.container .list-jasa .legit{
+.container .list-jasa .legit {
     float: left;
     width: 25%;
     background-color: #63696F;
@@ -147,42 +161,32 @@
     text-decoration: none;
 }
 
-.container .list-jasa .legit img{
+.container .list-jasa .legit img {
     margin-bottom: 20px;
 }
 
-.container .list-jasa .legit h3{
+.container .list-jasa .legit h3 {
     margin-bottom: 20px;
 }
+
 
 /* ========================== products ================== */
 
 .container .products{
-    height: 800px;
+    height: 700px;
     background-color: white;
-    padding-left: 8%;
+        padding-left: 10%;
+        padding-right: 10%;
+
 }
 
-.container .product-title{
-    display: flex;
-    justify-content: space-between;
-}
 
-.container .products .product-title ul{
-    margin-top: 80px;
-    margin-right: 8%;
-}
-
-.container .product-title ul li{
-    display: inline-block;
-    padding-left: 20px;
-}
 
 .product-title h2{
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 50px;
     padding-left: 10px;
-    color: #63696F;
+    color: purple;
     background: url("../images/title-line.png") no-repeat 0 50%;
 
 }
@@ -193,22 +197,53 @@
 }
 
 .container .product-item .product-item-list{
-    padding: 0;
+    padding: 0px;
+   
+    padding-bottom: 30px;
+    
     margin-top: 1%;
     margin-right: 10px;
-    text-align: center;
+   
     float: left;
-    width: 30%;
+    background-color: #353F4A;
+
+    width: 19%;
+   
+   box-shadow: 0px 0px 10px 10px #dee7ec;
 }
 
+
 .container .product-item .product-item-list img{
-    height: 200px;
+    height:250px;
     width: 100%;
+    /*padding-bottom: 10px;*/
+     border-bottom: 10px solid #63696F ;
+
+
 }
+
+.container .product-item .product-item-list h4{
+   /*padding-bottom: 20px;*/
+   padding: 10px;
+   padding-top: 4px;
+border-top-width: 10px;
+    border-color: white;
+    text-align: center; 
+   color: white;
+    font-family: 'Merriweather', serif;
+   padding-bottom: 8px;
+}
+.container .product-item .product-item-list p{
+   /*padding-top: 20px;*/
+    text-align: center; 
+
+   color: #D3D3D3;
+}
+
 
 /* ============================ projects review =================== */
 
-.projects-review{
+.projects-review {
     background-color: #353F4A;
     height: 250px;
     color: white;
@@ -217,47 +252,62 @@
     padding-top: 30px;
 }
 
-.projects-review h1{
+.projects-review h1 {
     font-size: 80px;
 }
 
-.projects-review p{
+.projects-review p {
     font-size: 30px;
 }
 
-.projects-review .project-item{
+.projects-review .project-item {
     float: left;
     width: 30%;
     vertical-align: middle;
     text-align: center;
 }
 
+
 /* css quotes */
-.container .quotes{
+
+.container .quotes {
     height: 500px;
     text-align: center;
     padding: 0 8%;
 }
-.container .quotes h1{
-    padding-top:20px;
+
+.container .quotes h1 {
+    padding-top: 20px;
     margin-bottom: 20px;
 }
-.container .quotes p{
+
+.container .quotes p {
     margin-bottom: 20px;
     font-style: italic;
 }
-.container .quotes img{
+
+.container .quotes img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     margin-bottom: 20px;
 }
 
-.container .quotes h3{
+.container .quotes h3 {
     font-size: 30px;
 }
 
-.container .footer{
+footer h3 {
+    text-align: center;
+}
+
+.logo-footer {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 50px;
+}
+
+footer {
     padding: 20px 8%;
     background-color: #353F4A;
     color: white;
