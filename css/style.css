@@ -79,7 +79,9 @@ nav a:hover {
     background-color: rgba(164, 79, 197, 0.95);
     padding: 10px 25px;
     text-decoration: none;
-    margin-left: 151px;
+    
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
 }
 
 
