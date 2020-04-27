@@ -1,6 +1,55 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
   
+.logo {
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+}
+.btn-join {
+  
+margin-left:24%;   
+}
+nav {
+    
+    font-size: 13px;
+   
+position: fixed;
+width: 100%;
+z-index: 1;
+background-color: white;
+}
+
+
+.container .products{
+    height: 900px;
+    background-color: white;
+        padding-left: 10%;
+        padding-right: 10%;
+
+}
+
+
+  .container .product-item .product-item-list{
+    padding: 0px;
+   
+    padding-bottom: 30px;
+    
+    margin-top: 1%;
+    margin-right: 35px;
+   
+    float: left;
+    background-color: #353F4A;
+
+    width: 25%;
+   
+   box-shadow: 0px 0px 10px 10px #dee7ec;
+   padding-bottom: 
+}
+
+.projects-review p {
+    font-size: 15px;
+}
+
 }
 
 /* Untuk Smartphone */
